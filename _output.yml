@@ -4,7 +4,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Bulkley River WCRP</a></li>
+        <li><a href="./">Horsefly River WCRP</a></li>
       after: |
         <li><a href="https://github.com/smnorris/bcfishpass" target="blank">Learn More</a></li>
     edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
