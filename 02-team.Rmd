@@ -1,0 +1,37 @@
+# WCRP Planning Team and Key Actors {#team}
+
+## Planning Team {#partners}
+
+```{r planningteam, echo=FALSE}
+library(kableExtra)
+planning_team = read.csv(header = TRUE, "./docs/tables/planning_team.csv", fileEncoding = "UTF-8-BOM", check.names = FALSE)
+
+kbl(planning_team, caption = "Horsefly River watershed WCRP planning team members. Planning team members contributed to the development of this plan by participating in a series of workshops and document and data review. The plan was generated based on the input and feedback of the local groups and organizations list in this table.") #%>%
+  #kable_styling(bootstrap_options = c("striped","hover")) %>%
+  #column_spec(1,width = "10em") #%>%
+  #row_spec(0,background = "#00827F")
+
+#knitr::kable(
+  #table1, caption = 'Typical life history characteristics of freshwater species',
+  #booktabs = TRUE
+#)
+```
+
+(see Table \@ref(tab:keyactors))
+
+## Key Actors {#actors}
+
+```{r keyactors, echo=FALSE}
+library(kableExtra)
+key_actors = read.csv(header = TRUE, "./docs/tables/key_actors.csv", fileEncoding = "UTF-8-BOM", check.names = FALSE)
+
+kbl(key_actors, caption = "Additional Key Actors in the Horsefly River watershed. Key Actors are the individuals, groups, and/or organizations, outside of the planning team, with influence and relevant experience in the watershed, whose engagement will be critical for the successful implementation of this WCRP.") #%>%
+  #kable_styling(bootstrap_options = c("striped","hover")) %>%
+  #column_spec(1,width = "10em") #%>%
+  #row_spec(0,background = "#00827F")
+
+#knitr::kable(
+  #table1, caption = 'Typical life history characteristics of freshwater species',
+  #booktabs = TRUE
+#)
+```

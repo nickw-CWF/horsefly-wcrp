@@ -1,0 +1,9 @@
+body {
+	background-image: url(title_page.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+div {
+	padding: 0.25em;
+}
